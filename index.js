@@ -6,4 +6,11 @@ function theBeatlesPlay(beatles, instruments){
   return out
 }
 
-function johnLennonFacts()
+function johnLennonFacts(facts){
+  var i = 0
+  var out = []
+  while(i<facts.length){
+    out.push(`${facts}!!!`)
+  }
+  return out
+}
